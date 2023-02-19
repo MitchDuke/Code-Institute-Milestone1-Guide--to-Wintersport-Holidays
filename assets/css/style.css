@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------------------------------------------------------Colours */
+
+/*------------------------------------------------------General Rules */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*------------------------------------------------------Header */
+
+.header {
+    font-family: "Oswald", sans-serif;
+    color: 555555;
+}
+
+#nav, li {
+    width: auto;
+}
+
+.navbar-light {
+    background-color: rgba(64, 179, 186, 0.6);
+}
+
+.menu-container {
+    text-align: right;
+    width: 100%;
+}
+
+/*------------------------------------------------------Reasons */
+
+.reasons {
+    text-align: center;
+
+}
+
+/*------------------------------------------------------Background */
+
+
+
+
+/*------------------------------------------------------Socials */
+
