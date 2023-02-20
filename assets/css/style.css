@@ -2,6 +2,10 @@
 
 /*------------------------------------------------------Colours */
 
+.ui-menu-color-home {
+
+}
+
 /*------------------------------------------------------General Rules */
 
 .uppercase {
@@ -9,15 +13,35 @@
 }
 
 
-/*------------------------------------------------------Header */
-
-.header {
-    font-family: "Oswald", sans-serif;
-    color: 555555;
+hr {
+    border-top: 1px solid;
+    width: 100%;
+    margin: 10px 0;
+    color: #555555;
+    position: relative;  
+    display: block;  
 }
 
-#nav, li {
+.content-container {
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.5);
+}
+
+.home-content {
+    text-align: left;
+}
+
+/*------------------------------------------------------Header */
+
+.heading {
+    font-family: "Oswald", sans-serif;
+    color: #555555;
+    margin-bottom: 0;
+}
+
+li, a {
     width: auto;
+    color: #555555;
 }
 
 .navbar-light {
@@ -29,14 +53,64 @@
     width: 100%;
 }
 
-/*------------------------------------------------------Reasons */
-
-.reasons {
-    text-align: center;
+.menu-item {
 
 }
 
 /*------------------------------------------------------Background */
+
+.bg-image {
+    background: url(../images/mdbg.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/*------------------------------------------------------Hero Image */
+
+.hero-image {
+    background: url()
+}
+
+/*------------------------------------------------------Reasons */
+
+.reasons {
+
+}
+
+
+.reasons-content hr {
+    width: 100%;
+}
+
+
+
+/*------------------------------------------------------Things to Consider */
+
+
+.consider-content hr {
+    width: 100%;
+}
+
+/*------------------------------------------------------Footer */
+
+.footer-container {
+    text-align: center;
+    background-color: rgba(64, 179, 186, 0.6);
+}
+
+.footer {
+    
+}
+
+
 
 
 
