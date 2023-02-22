@@ -45,7 +45,7 @@ li, a {
 }
 
 .navbar-light {
-    background-color: rgba(64, 179, 186, 0.6);
+    background-color: rgba(64, 179, 186, 1);
 }
 
 .menu-container {
@@ -76,7 +76,7 @@ li, a {
 /*------------------------------------------------------Hero Image */
 
 .hero-image {
-    background: url()
+    width: 100%;
 }
 
 /*------------------------------------------------------Reasons */
