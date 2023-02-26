@@ -12,6 +12,15 @@
     text-transform: uppercase;
 }
 
+h2 {
+    margin: 20px 0;
+    font-family: "Oswald", sans-serif;
+    color: #555555;
+}
+
+h3 {
+    padding: 20px 0;
+}
 
 hr {
     border-top: 1px solid;
@@ -36,6 +45,10 @@ hr {
     padding: 15px 0;
 }
 
+i {
+    float: right;
+}
+
 /*------------------------------------------------------Header */
 
 .heading {
@@ -51,11 +64,13 @@ li, a {
 
 .navbar-light {
     background-color: rgba(64, 179, 186, 1);
+    padding-top: 8px;
 }
 
 .menu-container {
     text-align: right;
     width: 100%;
+    padding-right: 1%;
 }
 
 .menu-item {
@@ -84,12 +99,22 @@ li, a {
     width: 100%;
 }
 
-/*------------------------------------------------------Reasons */
-
-.reasons {
-
+.hero-image-container {
+    padding-right: 0;
 }
 
+/*------------------------------------------------------Reasons */
+
+.home-content-image {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+
+.reasons-container {
+    padding-right: 0;
+}
 
 .reasons-content hr {
     width: 100%;
@@ -99,6 +124,9 @@ li, a {
 
 /*------------------------------------------------------Things to Consider */
 
+.things-container {
+    padding: 0;
+}
 
 .consider-content hr {
     width: 100%;
@@ -106,19 +134,44 @@ li, a {
 
 /*------------------------------------------------------Footer */
 
-.footer-container {
-    text-align: center;
-    background-color: rgba(64, 179, 186, 0.6);
-}
-
 .footer {
-    
+
+    height: 150px;
+    background-color: rgba(64, 179, 186, 0.6);
+    padding-right: 0;
 }
 
-
-
-
-
+.footer-container {
+    padding-right: 0;
+}
 
 /*------------------------------------------------------Socials */
 
+.socials {
+    text-align: center;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.socials i {
+    color: #555555;
+    font-size: 175%;
+    padding: 5%;
+    float: none;
+}
+
+/*------------------------------------------------------Media Queries */
+
+@media screen and (min-width: 1441px) {
+    h2, h3 {
+        font-size: 400%;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    p, li {
+        font-size: 200%;
+    }
+}
