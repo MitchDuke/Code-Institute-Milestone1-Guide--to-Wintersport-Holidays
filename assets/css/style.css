@@ -6,6 +6,9 @@
 
 }
 
+
+
+
 /*------------------------------------------------------General Rules */
 
 .uppercase {
@@ -73,9 +76,18 @@ li, a {
     padding-right: 1%;
 }
 
-.menu-item {
+.hero-image-container {
+    position: relative;
+  }
 
-}
+.overlay-text {
+    position: absolute;
+    bottom: 40;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1rem;
+  }
 
 /*------------------------------------------------------Background */
 
@@ -93,15 +105,38 @@ li, a {
     position: relative;
 }
 
+.bg-image-container {
+    padding: 0;
+}
+
 /*------------------------------------------------------Hero Image */
 
 .hero-image {
     width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-image-container {
-    padding-right: 0;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+.overlay-text {
+    position: absolute;
+    right: 30%;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4em;
+    z-index: 1;
+
+  }
 
 /*------------------------------------------------------Reasons */
 
@@ -151,6 +186,10 @@ li, a {
     text-align: center;
 }
 
+.socials ul {
+    padding-left: 0;
+}
+
 .socials li {
     display: inline-block;
 }
@@ -166,9 +205,16 @@ li, a {
 
 @media screen and (min-width: 1441px) {
     h2, h3 {
-        font-size: 400%;
+        font-size: 300%;
     }
 }
+
+@media screen and (min-width: 1441px) {
+    p, li {
+        font-size: 200%;
+    }
+}
+
 
 @media screen and (min-width: 1441px) {
     p, li {
