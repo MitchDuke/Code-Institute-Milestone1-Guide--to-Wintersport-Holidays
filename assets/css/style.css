@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*------------------------------------------------------Colours */
+
+
+
+
+
+/* Colours */
 
 .ui-menu-color-home {
 
@@ -9,7 +14,9 @@
 
 
 
-/*------------------------------------------------------General Rules */
+
+
+/* General Rules */
 
 .uppercase {
     text-transform: uppercase;
@@ -36,12 +43,16 @@ hr {
 
 .content-container {
     text-align: center;
-    background-color: rgba(217, 217, 217, 0.5);
+    background-color: rgba(217, 217, 217, 0.8);
 }
 
 .home-content {
     text-align: left;
     padding: 5px 0;
+}
+
+.home-content-container {
+    padding: 0;
 }
 
 .content-heading {
@@ -52,7 +63,31 @@ i {
     float: right;
 }
 
-/*------------------------------------------------------Header */
+.fa-solid {
+    line-height: inherit;
+    padding: 0 5px;
+}
+
+.header:hover {
+    color: #8FFF00;
+    text-decoration: none;
+}
+
+a:hover i {
+    color: #8FFF00;
+    text-decoration: none;
+}
+
+li, a:hover {
+    color: #8FFF00;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Header */
 
 .heading {
     font-family: "Oswald", sans-serif;
@@ -68,6 +103,7 @@ li, a {
 .navbar-light {
     background-color: rgba(64, 179, 186, 1);
     padding-top: 8px;
+    margin: 0;
 }
 
 .menu-container {
@@ -89,7 +125,12 @@ li, a {
     padding: 1rem;
   }
 
-/*------------------------------------------------------Background */
+
+
+
+
+
+/* Background */
 
 .bg-image {
     background: url(../images/mdbg.jpg) no-repeat bottom right fixed;
@@ -105,11 +146,12 @@ li, a {
     position: relative;
 }
 
-.bg-image-container {
-    padding: 0;
-}
 
-/*------------------------------------------------------Hero Image */
+
+
+
+
+/* Hero Image */
 
 .hero-image {
     width: 100%;
@@ -133,12 +175,17 @@ li, a {
     left: 30%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 4em;
+    font-size: 2em;
     z-index: 1;
-
+    border-radius: 15px;
   }
 
-/*------------------------------------------------------Reasons */
+
+
+
+
+
+/* Reasons */
 
 .home-content-image {
     max-height: 100%;
@@ -148,7 +195,8 @@ li, a {
 }
 
 .reasons-container {
-    padding-right: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .reasons-content hr {
@@ -157,7 +205,10 @@ li, a {
 
 
 
-/*------------------------------------------------------Things to Consider */
+
+
+
+/* Things to Consider */
 
 .things-container {
     padding: 0;
@@ -167,20 +218,31 @@ li, a {
     width: 100%;
 }
 
-/*------------------------------------------------------Footer */
+
+
+
+
+
+/* Footer */
 
 .footer {
 
     height: 150px;
     background-color: rgba(64, 179, 186, 0.6);
-    padding-right: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-container {
-    padding-right: 0;
+    padding: 0;
 }
 
-/*------------------------------------------------------Socials */
+
+
+
+
+
+/* Socials */
 
 .socials {
     text-align: center;
@@ -201,7 +263,18 @@ li, a {
     float: none;
 }
 
-/*------------------------------------------------------Media Queries */
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 334px) {
+    h1 {
+        font-size: 200%;
+    }
+}
 
 @media screen and (min-width: 1441px) {
     h2, h3 {
@@ -215,9 +288,50 @@ li, a {
     }
 }
 
+@media screen and (max-width: 580px) {
+    .header {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1980px) {
+    h1 {
+        font-size: 500%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .overlay-text {
+        font-size: 300%;
+    }
+}
 
 @media screen and (min-width: 1441px) {
-    p, li {
-        font-size: 200%;
+    .overlay-text {
+        font-size: 400%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .overlay-text {
+        font-size: 600%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .overlay-text {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .overlay-text {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .fa-solid {
+        display: none;
     }
 }
