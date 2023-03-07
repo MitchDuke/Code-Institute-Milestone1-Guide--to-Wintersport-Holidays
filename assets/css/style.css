@@ -233,13 +233,15 @@ li, a {
     margin: 5px 0 0 0;
     background-size: cover;
     background-position: center;
-    height: 210px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .guide-content  {
     text-align: center;
     padding: 5px 0;
 }
+
 
 
 
