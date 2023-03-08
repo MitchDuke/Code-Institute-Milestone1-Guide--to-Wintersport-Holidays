@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-
-
-
-
-
-/* Colours */
-
-
-
 /* General Rules */
 
 .uppercase {
@@ -88,6 +79,9 @@ li, a:hover {
 
 
 
+
+
+
 /*Header */
 
 .heading {
@@ -129,6 +123,8 @@ li, a {
 .menu-item {
     padding-right: 5px;
 }
+
+
 
 
 
@@ -242,6 +238,30 @@ li, a {
     padding: 5px 0;
 }
 
+
+
+
+
+
+/* Contact Form */
+
+.contact-us-form {
+
+}
+
+.text-input {
+    width: 100%;
+    text-align: left;
+}
+
+form, label {
+    text-align: left;
+}
+
+#question {
+    width: 100%;
+    text-align: left;
+}
 
 
 

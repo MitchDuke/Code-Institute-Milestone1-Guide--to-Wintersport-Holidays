@@ -40,22 +40,31 @@
                     <div class="col-12 mx-auto col-sm-10 content-container">
                         <div class="row mx-auto container-fluid">
                             <div class="col">
-                                <h2 class="uppercase content-heading heading">Five Reasons to go on a winter Holiday</h2>
+                                <h2 class="uppercase content-heading heading">Contact Us</h2>
                                 <div class="row">
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                                        <h3 class="uppercase heading home-content">To feel healthy<i class="fa-solid fa-heart"></i></h3>
-                                        <hr class="content-hr">
-                                        <p class="home-content">
-                                            The act of Snowboarding or Skiing is great exercise, it burns calories 
-                                            and gets the metabolism moving. The clean air  can also help clear your 
-                                            respiratory system. It can lower your cholesterol and help you lose weight.
-                                        </p>
+                                    <div class="col-12 col-sm-6 col-md-6">   
+                                        <form class="contact-us-form" action="https://formdump.codeinstitute.net/" method="post">
+                                            <h2>Got a Question for us?<i class="fa-solid fa-message"></i></h2>
+                                            <hr class="content-hr">
+                                            <label for="fname">First Name</label>
+                                            <input class="text-input" id="fname" type="text" name="first_name" required>
+                                            <label for="lname">Last Name</label>
+                                            <input class="text-input" id="lname" type="text" name="last_name" required>
+                                            <label for="email">Email Address</label>
+                                            <input class="text-input" id="email" type="email" name="email_address" required>
+                                            <label for="question">Got a Question For Us</label>
+                                            <textarea id="question" type="text" name="question" required rows="10" cols="40"></textarea>
+                                            <label for="road">Snowboarding</label>
+                                            <input id="road" type="radio" value="Snowboarding" name="running_preference" required>
+                                            <label for="trail">Skiing</label>
+                                            <input id="trail" type="radio" value="Skiing" name="running_preference">
+                                            <label for="both">Both</label>
+                                            <input id="both" type="radio" value="both" name="running_preference">
+                                            <input type="submit" value="Let's Go!" class="join-button">
+                                        </form>
                                     </div>
-                                    <div class="col-md-4 d-none d-lg-block mx-auto">
-                                        <img src="/assets/images/arcalis_2019.jpg" class="home-content-image" alt="Black and white snowey mountains with snowboards">
-                                    </div>
-                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                                        <h3 class="uppercase heading home-content">To be social<i class="fa-solid fa-champagne-glasses"></i></h3>
+                                    <div class="col-12 col-sm-6 col-md-6">
+                                        <h3 class="uppercase heading home-content">Not sure what to do or where to go?</h3>
                                         <hr class="content-hr">
                                         <p class="home-content">
                                             Not to be underestimated is the social aspect of winter holidays, you 
