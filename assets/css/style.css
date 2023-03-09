@@ -10,6 +10,7 @@ h2 {
     margin: 20px 0;
     font-family: "Oswald", sans-serif;
     color: #555555;
+    font-size: 200%;
 }
 
 h3 {
@@ -217,7 +218,9 @@ li, a {
     width: 100%;
 }
 
-
+.consider {
+    padding: 0 10px;
+}
 
 
 
@@ -246,23 +249,61 @@ li, a {
 /* Contact Form */
 
 .contact-us-form {
+    padding: 0;
 
 }
 
 .text-input {
     width: 100%;
     text-align: left;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #555555
 }
 
 form, label {
     text-align: left;
+    font-family: "Oswald", sans-serif;
+    padding: 15px 0;
+}
+
+label {
+    font-size: large;
 }
 
 #question {
     width: 100%;
     text-align: left;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
+textarea:hover, .text-input:hover {
+    border-color: #fff;
+}
+
+.go-button {
+    display: block;
+    background-color: #e40c0c;
+    border-radius: 5px;
+    font-size: 100%;
+    color: #fff;
+    size: 250%;
+}
+
+.go-button:hover {
+    background-color: #fff;
+    color: #e40c0c;
+}
+
+.go-button i {
+    margin-left: 10px;
+}
+
+.form-content {
+    margin: 15px 0;
+    padding: 0;
+}
 
 
 
@@ -322,7 +363,7 @@ form, label {
 
 @media screen and (min-width: 1441px) {
     h2, h3 {
-        font-size: 300%;
+        font-size: 400%;
     }
 }
 
@@ -375,7 +416,7 @@ form, label {
 }
 
 @media screen and (max-width: 425px) {
-    .fa-solid {
+    #nav .fa-solid {
         display: none;
     }
 }
