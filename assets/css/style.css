@@ -116,7 +116,6 @@ li, a {
 
 .overlay-text {
     position: absolute;
-    bottom: 40;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -290,7 +289,6 @@ textarea:hover, .text-input:hover {
     border-radius: 5px;
     font-size: 100%;
     color: #fff;
-    size: 250%;
 }
 
 .go-button:hover {
