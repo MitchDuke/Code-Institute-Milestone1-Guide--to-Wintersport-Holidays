@@ -320,6 +320,13 @@ textarea:hover, .text-input:hover {
     object-fit: cover;
 }
 
+.form-visitor-name {
+    font-family: "EXO", sans-serif;
+    float: left;
+    text-align: left;
+    font-style: italic;
+}
+
 
 
 
