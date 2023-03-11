@@ -1,10 +1,10 @@
 <h1 align="center">The Boardroom</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://mitchduke.github.io/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is a site aimed at providing guidance and advice for people taking their first time winter sports holidays to make it as enjoyable experience as possible.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="./assets/images/wireframes_complete.PNG"></h2>
 
 ## User Experience (UX)
 
@@ -27,9 +27,9 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The main colours used are  hex #555555 for text, rgb(64, 179, 186) and white, both utilising alpha to suit the background but allow text to still be legible.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald font is a rework of the alternate Gothic font to better fit the pixel grid of modern displays, it is clean and legible.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
 
@@ -58,22 +58,18 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes..
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Gimp:](https://www.gimp.org/)
+    - Gimp was used for resizing images and editing photos for the website.
+1. [Figma:](https://www.figma.com/)
+    - Figma was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
