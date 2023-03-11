@@ -18,14 +18,12 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
+        1. As a Returning Visitor, I want to find information about winter sports holidays.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         3. As a Returning Visitor, I want to find community links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any newly added guides or advice.
 
 -   ### Design
     -   #### Colour Scheme
