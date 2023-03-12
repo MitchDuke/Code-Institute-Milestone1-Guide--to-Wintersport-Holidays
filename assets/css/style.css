@@ -447,3 +447,9 @@ textarea:hover, .text-input:hover {
         display: none;
     }
 }
+
+@media screen and (max-width: 444px) {
+    #message {
+        display: none;
+    }
+}

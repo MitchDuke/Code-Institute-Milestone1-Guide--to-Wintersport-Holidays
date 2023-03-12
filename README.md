@@ -36,12 +36,17 @@ This is a site aimed at providing guidance and advice for people taking their fi
 *   ### Wireframes
 
     -   Home Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_home.PNG)
-
+        -   <img src="./assets/images/wireframes_home.PNG">
     -   Guide Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_guide.PNG)
-
-    -   Mobile Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_mobile.PNG)
-
+        -   <img src="./assets/images/wireframes_guide.PNG">
     -   Contact Us Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_form.PNG)
+        -   <img src="./assets/images/wireframes_form.PNG">
+    -   Mobile Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_mobile.PNG)
+        -   <img src="./assets/images/wireframes_mobile.PNG">
+
+## The Final Design
+
+    -   Home Page - [View]()
 
 ## Features
 
@@ -75,12 +80,35 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were syntax errors in the project which have been resolved.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
+-   Using the above mentioned validators the following error logs have been recorded and actioned upon.
+    -   index.html error log
+        -   <img src="./assets/images/error_log_1.1.PNG">
+        -   <img src="./assets/images/error_log_1.2.PNG">
+        -   <img src="./assets/images/error_log_1.3.PNG">
+        -   <img src="./assets/images/error_log_1.4.PNG">
+
+    -   index.html error log resolved
+        -   <img src="./assets/images/error_log_1.1_fixed.PNG">
+
+    -   guide.html error log no errors found
+        -   <img src="./assets/images/error_log_2.1.PNG">
+
+    -   form.html error log
+        -   <img src="./assets/images/error_log_3.1.PNG">
+    
+    -   form.html error log resolved
+        -   <img src="./assets/images/error_log_3.1_fixed.PNG">
+
+    -   style.css error log no errors found
+        -   <img src="./assets/images/error_log_css.PNG">
+
 ### Testing User Stories from User Experience (UX) Section
+
 
 -   #### First Time Visitor Goals
 
@@ -95,7 +123,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar which remains fixed at the top even when scrolling to allow the user to navigate to any other page within the site at any time, even when at the bottom of the page. It is clear what each link is for and where it will take the user.
         2. On the Contact Us Page, after a form response is submitted, the page takes the user to the code insitute form dump submission result page.
 
-    3. As a First Time Visitor, I want there to be testimonials to understand what their users think of them and see if they are trusted. The pages social media links should be easily found so the company can be checked for their online presence and see if they are ative.
+    3. As a First Time Visitor, I want there to be testimonials to understand what their users think of them and see if they are trusted. The pages social media links should be easily found so 
+        the company can be checked for their online presence and see if they are ative.
     
         1. Once the new visitor has read the why go on a winter sports holiday, scrolling down they will find the small section of things to consider section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
@@ -130,16 +159,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Microsoft Edge and Firefox browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S20A.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
 -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On high resolution wide screens the hero image will scale proportionatly and take up the whole screen width, otherwise it would either leave the background exposed or white lines down 
+    each side if it is contrained.
+-   On screen resolutions smaller than 443px the font awesome icon would displace below the the text of "Got a question for us?"
+    -  A media querry has been added to hide it below 443px screen resolutions.
+
+
 
 ## Deployment
 
