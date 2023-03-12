@@ -57,6 +57,7 @@ i {
 .fa-solid {
     line-height: inherit;
     padding: 0 5px;
+    float: right;
 }
 
 .header:hover {
@@ -389,14 +390,14 @@ textarea:hover, .text-input:hover {
 }
 
 @media screen and (min-width: 1441px) {
-    h2, h3 {
+    h2 {
         font-size: 400%;
     }
 }
 
 @media screen and (min-width: 1441px) {
     p, li {
-        font-size: 200%;
+        font-size: 150%;
     }
 }
 
