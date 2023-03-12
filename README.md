@@ -69,7 +69,6 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 -   The background image is meant to provokeve feelings of warmth and welcome to the user without distracting from the main content.
 
-
 ### Navbar 
 
 -   The navbar along the top is clear and unambigous in its use but subtle enough to not distract from the site content and is locked to the top of the page to allow easy navigation from any point 
@@ -284,24 +283,31 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The  hero image came from [Unsplash](https://unsplash.com/@gladegoggles)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Font awesome](https://fontawesome.com/): Font Awesome was used through out the project to add styling to headings.
 
 ### Content
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
--   All Images were created by the developer.
+-   The blackand white image on the home screen and the background are from my own pictures from 2018 in Arinsal, Andorra.
+-   The guide page images are from as follows:
+    -   Andorra [Andorra Info](https://booking.andorrainfo.com/es/imaginarium_h_1300.html)
+    -   Bugaria [The Culture Trip](https://theculturetrip.com/europe/bulgaria/articles/the-best-ski-resorts-in-bulgaria/)
+    -   France [The Culture Trip](https://theculturetrip.com/europe/france/articles/the-10-best-ski-resorts-in-france/)
+    -   Canada [Charleston Magazine](https://charlestonmag.com/features/destination_powder)
+    -   Japan   [National Geographic](https://www.nationalgeographic.com/travel/article/sponsor-content-nature-and-adventure-in-japan)
+    -   USA  [Aspen Snowmass](https://www.aspensnowmass.com/)
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
-
+-   My tutor for his support and guidance throughout the project.
+-   My friend Simon Nightingale who helped me test the project on various platforms and browsers.
 -   Tutor support at Code Institute for their support.
+-   Inspiration has been taken from both the Love running and Whiskey drop projects.
