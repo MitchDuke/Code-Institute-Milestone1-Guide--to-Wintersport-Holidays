@@ -46,13 +46,52 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 ## The Final Design
 
-    -   Home Page - [View]()
+-   Home Page
+    -   <img src="./assets/images/home_1.1.PNG">
+    -   <img src="./assets/images/home_1.2.PNG">
+
+-   Guide Page
+    -   <img src="./assets/images/guide_1.1.PNG">
+    -   <img src="./assets/images/guide_1.2.PNG">
+    -   <img src="./assets/images/guide_1.3.PNG">
+
+-   Contact Us Page
+    -   <img src="./assets/images/form_1.1.PNG">
+    -   <img src="./assets/images/form_1.2.PNG">
 
 ## Features
 
 -   Responsive on all device sizes
 
 -   Interactive elements
+
+### Background image
+
+-   The background image is meant to provokeve feelings of warmth and welcome to the user without distracting from the main content.
+
+
+### Navbar 
+
+-   The navbar along the top is clear and unambigous in its use but subtle enough to not distract from the site content and is locked to the top of the page to allow easy navigation from any point 
+    within the site.
+-   The page titles in the navbar have a hover function to give the user some visual feedback from their interactions.
+
+### Page Content
+
+-   Each page has each point broken down into smaller sections to avoid cognitive overload, the same styling is used through out the site to maintain conformity and provoke a sense of famililarity 
+    across the site.
+    -   Home Page
+        -   The home page has a brief few highlights of the reasons why you can take up a wintersport and travel around the world to do so.
+        -   It lists out a few examples of the things you should consider as a first time traveller.
+    -   Guide Page
+        -   The guide page lists various locations around the world that you can visit for a winter sports holiday.
+        -   The guide page is broken into sections related to locations in Europe and then a section for loacations around the world.
+        -   Each segment has a brief synopsis of the location with a small list of pros and cons for travelling there.
+    -   Contact Us Page
+        -   The contact us page has a form that can be submitted for asking a specific question regarding taking a wintyer sports holiday.
+        -   The form has a a textarea and required personal details sections with a radio button followed by the submit "lets go" button below.
+        -   There is a paragraph explaining the purpose of the form along with a redirect action on "HERE" to direct users to the social medial links.
+        -   There are visitor testimonials found below the form for users to see visual prof of the site authenticity.   
 
 ## Technologies Used
 
@@ -107,8 +146,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   style.css error log no errors found
         -   <img src="./assets/images/error_log_css.PNG">
 
-### Testing User Stories from User Experience (UX) Section
+### Performance
 
+The sites performance was tested using Google Chrome Lighthouse to ensure it is responsive in desktop and mobile applications.
+
+-   [Google Lighthouse Chrome Extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
+
+-   Using the above referrenced tools each page was tested in desktop and mobile versions and the reocrds from the test are as follows.
+    -   Home Page Desktop
+    -   <img src="./assets/images/home_performance_desktop.PNG">
+    -   Home Page Mobile
+    -   <img src="./assets/images/home_performance_mobile.PNG">
+    -   Guide Page Desktop
+    -   <img src="./assets/images/guide_performance_desktop.PNG">
+    -   Guide Page Mobile
+    -   <img src="./assets/images/guide_performance_mobile.PNG">
+    -   Contact Us Desktop
+    -   <img src="./assets/images/form_performance_form.PNG">
+    -   Contact Us Mobile
+    -   <img src="./assets/images/form_performance_mobile.PNG">
+   
+The overall performance is average and this is down to using multiple .PNG file types for the images. These should be changed to a more web friendly format to improve site performance.
+
+### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
@@ -159,7 +219,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Microsoft Edge and Firefox browsers.
+-   The Website was tested on Google Chrome, Microsoft Edge, Firefox browsers and their mobile equivalents.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S20A.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
@@ -170,9 +230,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   On high resolution wide screens the hero image will scale proportionatly and take up the whole screen width, otherwise it would either leave the background exposed or white lines down 
     each side if it is contrained.
 -   On screen resolutions smaller than 443px the font awesome icon would displace below the the text of "Got a question for us?"
-    -  A media querry has been added to hide it below 443px screen resolutions.
-
-
+    -  A media querry has been added to hide it below 443px screen resolutions.  
 
 ## Deployment
 
@@ -180,25 +238,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://mitchduke.github.io/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -206,13 +264,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
