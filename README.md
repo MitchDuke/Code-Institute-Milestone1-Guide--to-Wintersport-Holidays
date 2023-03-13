@@ -6,6 +6,52 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 <h2 align="center"><img src="./assets/images/wireframes_complete.PNG"></h2>
 
+## Table of Contents
+
+1.  [User Experience](#user-experience-ux)
+    -   [Design](#design)
+    -   [Wireframes](#wireframes)
+        -   [Home Page Wireframe](#home-page-wireframe---view)
+        -   [Guide Page Wireframe](#guide-page-wireframe---view)
+        -   [Contact Us Wireframe](#contact-us-page-wireframe---view)
+        -   [Mobile Wireframe](#mobile-wireframe---view)
+
+2.  [The Final Design](#the-final-design)
+    -   [Home Page](#home-page)
+    -   [Guide Page](#guide-page)
+    -   [Contact Us](#contact-us-page)
+
+3.  [Features](#features)
+    -   [Background](#background-image)
+    -   [Navbar](#navbar)
+    -   [Page Content](#page-content)
+
+4.  [Technologies Used](#technologies-used)
+    -   [Languages Used](#languages-used)
+    -   [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+5.  [Testing](#testing)
+    -   [Validation](#validation)
+    -   [Performance](#performance)
+    -   [Further Testing](#further-testing)
+    -   [Further Improvements](#further-improvements)
+    -   [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+        -   [First Time Visitor Goals](#first-time-visitor-goals-1)
+        -   [Returning Visitor Goals](#returning-visitor-goals-1)
+        -   [Frequent Visitor Goals](#frequent-user-goals-1)
+    -   [Known Bugs](#known-bugs)
+
+6.  [Deployment](#deployment)
+    -   [Github Pages](#github-pages)
+    -   [Forking The Github Repository](#forking-the-github-repository)
+    -   [Making a Local Clone](#making-a-local-clone)
+
+7.  [Credits](#credits)
+    -   [Code](#code)
+    -   [Content](#content)
+    -   [Media](#media)
+    -   [Acknowledgements](#acknowledgements)
+
 ## User Experience (UX)
 
 -   ### User stories
@@ -27,7 +73,7 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are  hex #555555 for text, rgb(64, 179, 186) and white, both utilising alpha to suit the background but allow text to still be legible.
+        -   The main colours used are  hex #555555 grey for text, rgb(64, 179, 186) and white, both utilising alpha to suit the background but allow text to still be legible.
     -   #### Typography
         -   The Oswald font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Oswald font is a rework of the alternate Gothic font to better fit the pixel grid of modern displays, it is clean and legible.
     -   #### Imagery
@@ -35,27 +81,27 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_home.PNG)
+    -   #### Home Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_home.PNG)
         -   <img src="./assets/images/wireframes_home.PNG">
-    -   Guide Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_guide.PNG)
+    -   #### Guide Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_guide.PNG)
         -   <img src="./assets/images/wireframes_guide.PNG">
-    -   Contact Us Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_form.PNG)
+    -   #### Contact Us Page Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_form.PNG)
         -   <img src="./assets/images/wireframes_form.PNG">
-    -   Mobile Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_mobile.PNG)
+    -   #### Mobile Wireframe - [View](https://github.com/MitchDuke/Code-Institute-Milestone1-Guide--to-Wintersport-Holidays/blob/main/assets/images/wireframes_mobile.PNG)
         -   <img src="./assets/images/wireframes_mobile.PNG">
 
 ## The Final Design
 
--   Home Page
+-   ### Home Page
     -   <img src="./assets/images/home_1.1.PNG">
     -   <img src="./assets/images/home_1.2.PNG">
 
--   Guide Page
+-   ### Guide Page
     -   <img src="./assets/images/guide_1.1.PNG">
     -   <img src="./assets/images/guide_1.2.PNG">
     -   <img src="./assets/images/guide_1.3.PNG">
 
--   Contact Us Page
+-   ### Contact Us Page
     -   <img src="./assets/images/form_1.1.PNG">
     -   <img src="./assets/images/form_1.2.PNG">
 
@@ -71,14 +117,14 @@ This is a site aimed at providing guidance and advice for people taking their fi
 
 ### Navbar 
 
--   The navbar along the top is clear and unambigous in its use but subtle enough to not distract from the site content and is locked to the top of the page to allow easy navigation from any point 
-    within the site.
+-   The navbar along the top is clear and unambigous in its use but subtle enough to not distract from the site content and is locked to the top of the page to allow easy navigation from any 
+    point within the site.
 -   The page titles in the navbar have a hover function to give the user some visual feedback from their interactions.
 
 ### Page Content
 
--   Each page has each point broken down into smaller sections to avoid cognitive overload, the same styling is used through out the site to maintain conformity and provoke a sense of famililarity 
-    across the site.
+-   Each page has each point broken down into smaller sections to avoid cognitive overload, the same styling is used through out the site to maintain conformity and provoke a sense of 
+    famililarity across the site.
     -   Home Page
         -   The home page has a brief few highlights of the reasons why you can take up a wintersport and travel around the world to do so.
         -   It lists out a few examples of the things you should consider as a first time traveller.
@@ -119,6 +165,8 @@ This is a site aimed at providing guidance and advice for people taking their fi
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were syntax errors in the project which have been resolved.
+
+### Validation
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
@@ -166,6 +214,18 @@ The sites performance was tested using Google Chrome Lighthouse to ensure it is 
     -   <img src="./assets/images/form_performance_mobile.PNG">
    
 The overall performance is average and this is down to using multiple .PNG file types for the images. These should be changed to a more web friendly format to improve site performance.
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Microsoft Edge, Firefox browsers and their mobile equivalents.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S20A.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Further Improvements
+
+-   Due to the average score in testing and the loading speed particularly in Chrome and on mobile the future aim would be to use msmaller resolution images to speed up load times on these 
+    platforms.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -216,12 +276,6 @@ The overall performance is average and this is down to using multiple .PNG file 
         1. At the bottom of every page their is a footer which content is consistent throughout all pages.
         2. There is a "lets Go" button to the left hand side below the input field which is located close to the field and can easily be distinguished.
 
-### Further Testing
-
--   The Website was tested on Google Chrome, Microsoft Edge, Firefox browsers and their mobile equivalents.
--   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S20A.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
